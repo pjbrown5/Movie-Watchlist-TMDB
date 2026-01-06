@@ -1,0 +1,160 @@
+[
+  {
+    "id": 2,
+    "tmdb_id": 329865,
+    "title": "Arrival",
+    "year": "2016",
+    "poster_path": "/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg",
+    "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+    "watched": true,
+    "rating": 3,
+    "review": "wow\n",
+    "liked": true,
+    "watchlist": false
+  },
+  {
+    "id": 3,
+    "tmdb_id": 11,
+    "title": "Star Wars",
+    "year": "1977",
+    "poster_path": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+    "overview": "Princess Leia is captured and held hostage by the evil Imperial forces in their effort to take over the galactic Empire. Venturesome Luke Skywalker and dashing captain Han Solo team together with the loveable robot duo R2-D2 and C-3PO to rescue the beautiful princess and restore peace and justice in the Empire.",
+    "watched": true,
+    "rating": "4",
+    "review": "Hot dog!"
+  },
+  {
+    "id": 4,
+    "tmdb_id": 578,
+    "title": "Jaws",
+    "year": "1975",
+    "poster_path": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+    "overview": "When the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled hunter embark on a desperate quest to destroy the beast before it strikes again.",
+    "watched": true,
+    "rating": 1,
+    "review": "no"
+  },
+  {
+    "id": 5,
+    "tmdb_id": 857,
+    "title": "Saving Private Ryan",
+    "year": "1998",
+    "poster_path": "/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
+    "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 6,
+    "tmdb_id": 329,
+    "title": "Jurassic Park",
+    "year": "1993",
+    "poster_path": "/fjTU1Bgh3KJu4aatZil3sofR2zC.jpg",
+    "overview": "A wealthy entrepreneur secretly creates a theme park featuring living dinosaurs drawn from prehistoric DNA. Before opening day, he invites a team of experts and his two eager grandchildren to experience the park and help calm anxious investors. However, the park is anything but amusing as the security systems go off-line and the dinosaurs escape.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 7,
+    "tmdb_id": 218,
+    "title": "The Terminator",
+    "year": "1984",
+    "poster_path": "/hzXSE66v6KthZ8nPoLZmsi2G05j.jpg",
+    "overview": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
+    "watched": true,
+    "rating": "3",
+    "review": "yes"
+  },
+  {
+    "id": 8,
+    "tmdb_id": 120467,
+    "title": "The Grand Budapest Hotel",
+    "year": "2014",
+    "poster_path": "/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+    "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 9,
+    "tmdb_id": 273248,
+    "title": "The Hateful Eight",
+    "year": "2015",
+    "poster_path": "/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg",
+    "overview": "Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 10,
+    "tmdb_id": 37799,
+    "title": "The Social Network",
+    "year": "2010",
+    "poster_path": "/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+    "overview": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 12,
+    "tmdb_id": 244786,
+    "title": "Whiplash",
+    "year": "2014",
+    "poster_path": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+    "overview": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 13,
+    "tmdb_id": 872585,
+    "title": "Oppenheimer",
+    "year": "2023",
+    "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 15,
+    "tmdb_id": 655,
+    "title": "Paris, Texas",
+    "year": "1984",
+    "poster_path": "/sP27Qm4THyRZyHjHYMfIDtJP6YE.jpg",
+    "overview": "A man wanders out of the desert not knowing who he is. His brother finds him, and helps to pull his memory back of the life he led before he walked out on his family and disappeared four years earlier.",
+    "watched": true,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 18,
+    "tmdb_id": 1054867,
+    "title": "One Battle After Another",
+    "year": "2025",
+    "poster_path": "/m1jFoahEbeQXtx4zArT2FKdbNIj.jpg",
+    "overview": "Washed-up revolutionary Bob exists in a state of stoned paranoia, surviving off-grid with his spirited, self-reliant daughter, Willa. When his evil nemesis resurfaces after 16 years and she goes missing, the former radical scrambles to find her, father and daughter both battling the consequences of his past.",
+    "watched": false,
+    "rating": null,
+    "review": ""
+  },
+  {
+    "id": 20,
+    "tmdb_id": 101,
+    "title": "Léon: The Professional",
+    "year": "1994",
+    "poster_path": "/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg",
+    "overview": "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Léon's footsteps.",
+    "watched": true,
+    "watchlist": false,
+    "liked": false,
+    "rating": null,
+    "review": ""
+  }
+]

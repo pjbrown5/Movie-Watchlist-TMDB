@@ -1,0 +1,75 @@
+<h1>{{title}}</h1>
+
+<div class="movie-details-container">
+    <div class="movie-poster-section">
+        {{#if movie.poster_path}}
+        <img src="https://image.tmdb.org/t/p/w342{{movie.poster_path}}" alt="{{movie.title}} poster"
+            class="movie-poster" />
+        {{else}}
+        <div class="no-poster">No Poster Available</div>
+        {{/if}}
+    </div>
+    <div class="movie-info-section">
+        <h2>{{movie.title}} {{movie.year}}</h2>
+        <p>Directed by {{movie.director}}</p>
+        {{#if movie.overview}}
+        <p>{{movie.overview}}</p>
+        {{else}}
+        <p>No overview available.</p>
+        {{/if}}
+        <p><strong>Cast:</strong> {{movie.cast}}</p>
+        {{#if movie.runtime}}
+        <p>{{movie.runtime}}</p>
+        {{else}}
+        <p>Runtime unknown</p>
+        {{/if}}
+        <div class="status-checkboxes">
+            <label>
+                <input type="checkbox" id="watched-{{movie.id}}" {{#if movie.watched}}checked{{/if}}
+                    onchange="updateStatus('watched', {{movie.id}}, this.checked)">
+                Watched
+            </label>
+            <label>
+                <input type="checkbox" id="liked-{{movie.id}}" {{#if movie.liked}}checked{{/if}}
+                    onchange="updateStatus('liked', {{movie.id}}, this.checked)">
+                Liked
+            </label>
+            <label>
+                <input type="checkbox" id="watchlist-{{movie.id}}" {{#if movie.watchlist}}checked{{/if}}
+                    onchange="updateStatus('watchlist', {{movie.id}}, this.checked)">
+                Watchlist
+            </label>
+        </div>
+        <div class="rating-section">
+            <h3>Rating</h3>
+            {{#if movie.rating}}
+            <p>⭐ Rated: {{movie.rating}}/5</p>
+            {{else}}
+            <form onsubmit="submitRating('{{movie.id}}'); return false;">
+                <select id="rating-{{movie.id}}" name="rating" required>
+                    <option value="" disabled selected>Select a rating</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </form>
+            {{/if}}
+        </div>
+        <div class="review-section">
+            <h3>Review</h3>
+            {{#if movie.review}}
+            <p>{{movie.review}}</p>
+            {{else}}
+            <form onsubmit="submitRating('{{movie.id}}'); return false;">
+                <textarea id="review-{{movie.id}}" placeholder="Leave a review"></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+            {{/if}}
+        </div>
+        <button onclick="deleteMovie({{movie.id}})">Remove</button>
+    </div>
+</div>
+
+<script src="/app.js"></script>

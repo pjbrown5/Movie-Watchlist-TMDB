@@ -1,0 +1,30 @@
+<h1>{{title}}</h1>
+
+<div id="search-container">
+    <input type="text" id="search" placeholder="Search for a movie..." />
+    <div id="search-results"></div>
+</div>
+
+<ul>
+    {{#each movies}}
+        <li>
+            <div class="movie-item">
+                {{#if poster_path}}
+                    <img src="https://image.tmdb.org/t/p/w342{{poster_path}}" alt="{{title}} poster" class="movie-poster" />
+                {{/if}}
+                <div class="movie-details">
+                    <strong><a href="/movies/{{id}}">{{title}} ({{year}})</a></strong>
+                    <button onclick="markWatched('{{id}}')">Mark as Watched</button>
+                    <button onclick="deleteMovie({{id}})">Remove</button>
+                </div>
+            </div>
+        </li>
+    {{/each}}
+</ul>
+
+{{#unless movies}}
+    <p>No movies in your watchlist. Add one!</p>
+{{/unless}}
+
+<script src="/app.js"></script>
+

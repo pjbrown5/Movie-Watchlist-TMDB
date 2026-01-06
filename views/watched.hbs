@@ -1,0 +1,68 @@
+<h1>{{title}}</h1>
+
+<ul>
+    {{#each movies}}
+    <li>
+        <div class="movie-item">
+            {{#if poster_path}}
+            <img src="https://image.tmdb.org/t/p/w185{{poster_path}}" alt="{{title}} poster" class="movie-poster" />
+            {{/if}}
+            <div class="movie-details">
+                <strong><a href="/movies/{{id}}">{{title}} ({{year}})</a></strong>
+                <p>✅ Watched</p>
+                {{#if rating}}
+                <p>⭐ Rated: {{rating}}/5</p>
+                <p>Review: {{review}}</p>
+                {{else}}
+                <form onsubmit="submitRating('{{id}}'); return false;">
+                    <select id="rating-{{id}}" name="rating" required>
+                        <option value="" disabled selected>Select a rating</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <textarea id="review-{{id}}" placeholder="Leave a review"></textarea>
+                    <button type="submit">Submit Review</button>
+                </form>
+                {{/if}}
+                <button onclick="deleteMovie({{id}})">Remove</button>
+            </div>
+        </div>
+    </li>
+    {{/each}}
+</ul>
+
+{{#unless movies}}
+<p>No movies watched yet.</p>
+{{/unless}}
+
+
+{{!-- <h1>{{title}}</h1>
+
+<ul>
+    {{#each movies}}
+    <li>
+        <strong><a href="/movies/{{id}}">{{title}} ({{year}})</a></strong>
+        <p>✅ Watched</p>
+        {{#if rating}}
+        <p>⭐ Rated: {{rating}}/5</p>
+        <p>Review: {{review}}</p>
+        {{else}}
+        <form onsubmit="submitRating('{{id}}'); return false;">
+            <input type="number" min="1" max="5" id="rating-{{id}}" placeholder="Rate (1-5)" required />
+            <textarea id="review-{{id}}" placeholder="Leave a review"></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+        {{/if}}
+        <button onclick="deleteMovie({{id}})">Remove</button>
+    </li>
+    {{/each}}
+</ul>
+
+{{#unless movies}}
+<p>No movies watched yet.</p>
+{{/unless}} --}}
+
+<script src="/app.js"></script>
