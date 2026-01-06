@@ -32,7 +32,7 @@ The application supports searching for movies, tracking watched status, and leav
 ```bash
 npm install
 
-Create a file called ".env" (without quotes) in the project root and add a line that says
+In the .env file in the project root, add a line that says:
 
 TMDB_API_KEY=your_api_read_access_token_here
 
